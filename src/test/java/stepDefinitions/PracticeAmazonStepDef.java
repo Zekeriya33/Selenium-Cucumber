@@ -17,13 +17,7 @@ public class PracticeAmazonStepDef {
     Faker faker =new Faker();
 
 
-    @Given("kullanici Amazon web sitesine gider")
-    public void kullanici_amazon_web_sitesine_gider() {
 
-        Driver.getDriver().get(ConfigReader.getProperty("amznUrl"));
-
-
-    }
     @When("sign in butonuna tiklar")
     public void sign_in_butonuna_tiklar() {
      amazonPage.signinButonu.click();
@@ -98,5 +92,9 @@ public class PracticeAmazonStepDef {
         Driver.closeDriver();
 
 
+    }
+
+    @When("kullanici https:\\/\\/editor.datatables.net\\/ adresine gider")
+    public void kullaniciHttpsEditorDatatablesNetAdresineGider() {
     }
 }

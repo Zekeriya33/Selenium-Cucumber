@@ -1,4 +1,4 @@
-@Zekeriya
+
 Feature: TC11 Negatif Test
 
 Scenario Outline: TC11 kullanici gecerli bilgilerle giris yapar

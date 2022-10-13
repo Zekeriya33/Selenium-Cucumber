@@ -1,11 +1,12 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.Given;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 public class HepsiBuradaStepDefinition {
     @Given("Kullanici {string} sayfasinda")
     public void kullaniciSayfasinda(String istenenUrl) {
-        Driver.getDriver().get(istenenUrl);
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
 }
