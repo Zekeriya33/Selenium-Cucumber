@@ -48,6 +48,7 @@ public class HerokuStepDefinition {
 
     @Given("User goes to direct {string}")
     public void userGoesToDirect(String istenenurl) {
+
         Driver.getDriver().get(istenenurl);
     }
 }

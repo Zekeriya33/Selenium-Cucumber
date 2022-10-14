@@ -6,14 +6,14 @@ Feature: Amazon Search
     Then  Kullanici nutella icin arama yapar
     And   Sonuclarin nutella icerdigini test eder
 
-@gp3
+
   Scenario: TC02 Kullanıcı Amazon da Selenium aratır
 
     Given Kullanici amazon sayfasina gider
     Then  Kullanici Selenium icin arama yapar
     And   Sonuclarin Selenium icerdigini test eder
 
-@gp2
+
   Scenario: TC03 Kullanıcı Amazon da iphone aratır
 
     Given Kullanici amazon sayfasina gider

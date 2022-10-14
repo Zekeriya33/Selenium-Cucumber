@@ -2,6 +2,7 @@ stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
 pages\GuruPage.class
+pages\WebPage.class
 stepDefinitions\Practice_TC_07steps.class
 pages\HerokuPages.class
 pages\BrcPage.class
@@ -15,6 +16,7 @@ pages\PracticeTC07Page.class
 runners\Runner.class
 utilities\Driver.class
 stepDefinitions\Hooks.class
+stepDefinitions\WebDriverStepDefinition.class
 pages\PracticeTestPage.class
 stepDefinitions\DatatableDefinition.class
 utilities\ConfigReader.class

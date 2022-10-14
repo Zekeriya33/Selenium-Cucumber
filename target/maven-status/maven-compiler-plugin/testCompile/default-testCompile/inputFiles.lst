@@ -7,6 +7,7 @@ C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Pra
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PracticeTC07Page.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Hooks.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\Driver.java
+C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\WebPage.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practice_TC_07steps.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PracticeTestPage.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\HerokuPages.java
@@ -14,6 +15,7 @@ C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Pra
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\GuruPage.java
+C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\WebDriverStepDefinition.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\DatatableDefinition.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueRentaCarStepDefinition.java
 C:\Users\asus\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\BrcPage.java

@@ -8,7 +8,7 @@ Feature: US002 Parametre Kullanimi
     Then  Kullanici "nutella" icin arama yapar
     And   Sonuclarin "nutella" icerdigini test eder
     And   Sayfayı kapatir
-
+@gp2
   Scenario: TC02 Kullanici Amazonda parametreli arama yapar
 
     Then  Kullanici "selenium" icin arama yapar
