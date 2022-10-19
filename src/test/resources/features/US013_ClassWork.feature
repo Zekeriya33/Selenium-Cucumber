@@ -1,5 +1,5 @@
 @Web
-Feature: US014 Class Work
+Feature: US013 Class Work
   Scenario: Kullanici ve Url Testi
     Given Kullanici "webUrl" sayfasinda
     Then kullanici Login Portala kadar asagi iner

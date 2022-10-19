@@ -52,25 +52,23 @@ public class WebDriverStepDefinition {
 
     @And("kullanici login butonuna basar")
     public void kullaniciLoginButonunaBasar() {
-        actions.sendKeys(Keys.TAB,Keys.ENTER).perform();
+
+        actions.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
     }
 
     @And("kullanici Popup'ta cikan yazinin validation failed oldugunu test eder")
     public void kullaniciPopupTaCikanYazininValidationFailedOldugunuTestEder() {
-     // String actualPopupText = Driver.getDriver().switchTo().alert().getText();
-     // String expectedPopupText = "validation failed";
-     // Assert.assertEquals(expectedPopupText, actualPopupText);
+        String actualPopupText = Driver.getDriver().switchTo().alert().getText();
+        String expectedPopupText = "validation failed";
+        Assert.assertEquals(expectedPopupText, actualPopupText);
 
 
 
-        String actualPopUpText = Driver.getDriver().switchTo().alert().getText();
-        String expectedPopUpText= "validation failed";
-        System.out.println(actualPopUpText);
-        Assert.assertEquals(expectedPopUpText,actualPopUpText);
-    }
+      }
 
     @And("kullanici Ok diyerek Popup'i kapatir")
     public void kullaniciOkDiyerekPopupIKapatir() {
+
         Driver.getDriver().switchTo().alert().accept();
     }
 
